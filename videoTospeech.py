@@ -6,7 +6,7 @@ from datetime import timedelta
 
 # see
 # set up your cloud speech project. download credentials from IAM
-GOOGLE_APPLICATION_CREDENTIALS="q:\git\\transcribeVideo\speechtotext-352511-9911595affd0.json"
+GOOGLE_APPLICATION_CREDENTIALS="q:\git\\transcribeVideo\your-credentials.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = GOOGLE_APPLICATION_CREDENTIALS
 
 def transcribe_speech(
